@@ -1,0 +1,217 @@
+body {
+    padding: 0;
+    padding-left: 25px;
+    margin: 0;
+}
+
+// DZ-5 Task-8 House
+.main-block-house {
+    background-image: url(http://tutorial.promo.net.ua/images/js/setka3.png);
+    background-position: top left;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    position: relative;
+    .house {
+        width: 150px;
+        height: 150px;
+        background: coral;
+        position: absolute;
+        bottom: 0;
+        right: 75px;
+    }
+    .roof {
+        width: 0;
+        height: 0;
+        border-left: 110px solid transparent;
+        border-right: 110px solid transparent;
+        border-bottom: 100px solid red;
+        position: absolute;
+        bottom: 150px;
+        left: 40px;
+    }
+    .chimney {
+        width: 20px;
+        height: 60px;
+        background: black;
+        position: absolute;
+        top: 50px;
+        left: 90px;
+    }
+    .door {
+        width: 60px;
+        height: 90px;
+        background: brown;
+        position: absolute;
+        bottom: 0;
+        left: 90px;
+        z-index: 1;
+    }
+    .window {
+        width: 40px;
+        height: 40px;
+        background: cyan;
+        position: absolute;
+        bottom: 50px;
+        left: 165px;
+        z-index: 1;
+    }
+}
+
+// DZ-5 Task-6 Squares diagonale
+.main-block-square {
+    margin-top: 25px;
+    background-image: url(http://tutorial.promo.net.ua/images/js/setka3.png);
+    background-position: top left;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    position: relative;
+    .blue,
+    .red,
+    .yellow {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+    }
+    .blue {
+        background: blue;
+        top: 0;
+        left: 0;
+    }
+    .red {
+        background: red;
+        top: 100px;
+        left: 100px;
+    }
+    .yellow {
+        background: yellow;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+// DZ-5 Task-7 Squares diagonale z-index
+.main-block-z-index {
+    background-image: url(http://tutorial.promo.net.ua/images/js/setka3.png);
+    background-position: top left;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    position: relative;
+    margin-top: 25px;
+    .blue,
+    .red,
+    .yellow {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+    }
+    .red {
+        background: red;
+        top: 50px;
+        left: 50px;
+        z-index: 10;
+    }
+    .blue {
+        background: blue;
+        top: 100px;
+        left: 100px;
+        z-index: 20;
+    }
+    .yellow {
+        background: yellow;
+        bottom: 50px;
+        right: 50px;
+        z-index: 30;
+    }
+}
+
+// DZ-5 Task-1
+.float-photo {
+    width: 400px;
+    img[alt="bear"] {
+        float: left;
+    }
+    img[alt="panda"] {
+        float: right;
+    }
+}
+
+// DZ-5 Task-2
+.parent-2 {
+    margin-top: 50px;
+    width: 340px;
+    min-height: 20px;
+    background: #FF6600;
+    overflow: hidden;
+    .rows {
+        width: 100px;
+        height: 100px;
+        background: #00F1FF;
+        margin: 5px;
+        float: left;
+    }
+}
+
+// DZ-5 Task-3
+.parent-3 {
+    margin-top: 50px;
+    width: 440px;
+    min-height: 20px;
+    background: #FF6600;
+    overflow: hidden;
+    .rows {
+        width: 100px;
+        height: 100px;
+        background: #00F1FF;
+        margin: 5px;
+        float: left;
+    }
+}
+
+// DZ-5 Task-4 News-site
+.news-site {
+    .full-wrap,
+    .header,
+    .wrap,
+    .main,
+    .sidebar,
+    .footer {
+        border: 1px solid #000;
+        box-sizing: border-box;
+    }
+    .full-wrap {
+        margin-top: 50px;
+        width: 486px;
+        height: 530px;
+        padding: 10px;
+        .header {
+            height: 63px;
+            float: both;
+            margin-bottom: 11px;
+        }
+        .wrap {
+            height: 317px;
+            float: both;
+            margin-bottom: 11px;
+            padding: 8px;
+            .main,
+            .sidebar {
+                height: 294px;
+            }
+            .main {
+                width: 256px;
+                float: left;
+            }
+            .sidebar {
+                width: 167px;
+                float: right;
+            }
+        }
+        .footer {
+            height: 101px;
+            float: both;
+        }
+    }
+}

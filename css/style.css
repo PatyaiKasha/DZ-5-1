@@ -1,0 +1,178 @@
+body {
+  padding: 0;
+  padding-left: 25px;
+  margin: 0; }
+
+.main-block-house {
+  background-image: url(http://tutorial.promo.net.ua/images/js/setka3.png);
+  background-position: top left;
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  position: relative; }
+  .main-block-house .house {
+    width: 150px;
+    height: 150px;
+    background: coral;
+    position: absolute;
+    bottom: 0;
+    right: 75px; }
+  .main-block-house .roof {
+    width: 0;
+    height: 0;
+    border-left: 110px solid transparent;
+    border-right: 110px solid transparent;
+    border-bottom: 100px solid red;
+    position: absolute;
+    bottom: 150px;
+    left: 40px; }
+  .main-block-house .chimney {
+    width: 20px;
+    height: 60px;
+    background: black;
+    position: absolute;
+    top: 50px;
+    left: 90px; }
+  .main-block-house .door {
+    width: 60px;
+    height: 90px;
+    background: brown;
+    position: absolute;
+    bottom: 0;
+    left: 90px;
+    z-index: 1; }
+  .main-block-house .window {
+    width: 40px;
+    height: 40px;
+    background: cyan;
+    position: absolute;
+    bottom: 50px;
+    left: 165px;
+    z-index: 1; }
+
+.main-block-square {
+  margin-top: 25px;
+  background-image: url(http://tutorial.promo.net.ua/images/js/setka3.png);
+  background-position: top left;
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  position: relative; }
+  .main-block-square .blue,
+  .main-block-square .red,
+  .main-block-square .yellow {
+    width: 100px;
+    height: 100px;
+    position: absolute; }
+  .main-block-square .blue {
+    background: blue;
+    top: 0;
+    left: 0; }
+  .main-block-square .red {
+    background: red;
+    top: 100px;
+    left: 100px; }
+  .main-block-square .yellow {
+    background: yellow;
+    bottom: 0;
+    right: 0; }
+
+.main-block-z-index {
+  background-image: url(http://tutorial.promo.net.ua/images/js/setka3.png);
+  background-position: top left;
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  position: relative;
+  margin-top: 25px; }
+  .main-block-z-index .blue,
+  .main-block-z-index .red,
+  .main-block-z-index .yellow {
+    width: 100px;
+    height: 100px;
+    position: absolute; }
+  .main-block-z-index .red {
+    background: red;
+    top: 50px;
+    left: 50px;
+    z-index: 10; }
+  .main-block-z-index .blue {
+    background: blue;
+    top: 100px;
+    left: 100px;
+    z-index: 20; }
+  .main-block-z-index .yellow {
+    background: yellow;
+    bottom: 50px;
+    right: 50px;
+    z-index: 30; }
+
+.float-photo {
+  width: 400px; }
+  .float-photo img[alt="bear"] {
+    float: left; }
+  .float-photo img[alt="panda"] {
+    float: right; }
+
+.parent-2 {
+  margin-top: 50px;
+  width: 340px;
+  min-height: 20px;
+  background: #FF6600;
+  overflow: hidden; }
+  .parent-2 .rows {
+    width: 100px;
+    height: 100px;
+    background: #00F1FF;
+    margin: 5px;
+    float: left; }
+
+.parent-3 {
+  margin-top: 50px;
+  width: 440px;
+  min-height: 20px;
+  background: #FF6600;
+  overflow: hidden; }
+  .parent-3 .rows {
+    width: 100px;
+    height: 100px;
+    background: #00F1FF;
+    margin: 5px;
+    float: left; }
+
+.news-site .full-wrap,
+.news-site .header,
+.news-site .wrap,
+.news-site .main,
+.news-site .sidebar,
+.news-site .footer {
+  border: 1px solid #000;
+  box-sizing: border-box; }
+.news-site .full-wrap {
+  margin-top: 50px;
+  width: 486px;
+  height: 530px;
+  padding: 10px; }
+  .news-site .full-wrap .header {
+    height: 63px;
+    float: both;
+    margin-bottom: 11px; }
+  .news-site .full-wrap .wrap {
+    height: 317px;
+    float: both;
+    margin-bottom: 11px;
+    padding: 8px; }
+    .news-site .full-wrap .wrap .main,
+    .news-site .full-wrap .wrap .sidebar {
+      height: 294px; }
+    .news-site .full-wrap .wrap .main {
+      width: 256px;
+      float: left; }
+    .news-site .full-wrap .wrap .sidebar {
+      width: 167px;
+      float: right; }
+  .news-site .full-wrap .footer {
+    height: 101px;
+    float: both; }
+
+/*# sourceMappingURL=style.css.map */
